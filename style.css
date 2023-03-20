@@ -1,0 +1,331 @@
+html, body, div, h5, h4, h3, h2, h1, p, a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: cursive, Times;
+}
+
+body {
+    background-image: url(images/backgroundimage3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.maindiv {
+    flex-direction: row;
+    text-align: center;
+}
+
+.header {
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 100vw;
+    min-height: 64vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    width: 100vw;
+    min-height: 18vh;
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex-basis: 25%;
+    justify-content: center;
+}
+
+.right {
+    flex-basis: 75%;
+    justify-content: center;
+}
+
+.logo {
+    transition-duration: 0.3s;
+    float: left;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    font-size: 5vh;
+    text-decoration: none;
+    color: azure;
+    font-weight: 700;
+    margin-top: 4vh;
+    padding: 0;
+}
+
+.logo:hover {
+    font-size: 5.2vh;
+}
+
+
+.contactinformation {
+    flex-basis: 33%;
+    color: azure;
+    justify-content: center;
+}
+
+.copyrights {
+    flex-basis: 33%;
+    color: azure;
+    padding-top: 13vh;
+}
+
+.follow {
+    flex-basis: 33%;
+    color: azure;
+    justify-content: center;
+}
+
+.info {
+    padding-top: 1.2vh;
+    font-size: 1.7vh;
+}
+
+.h4contactinformation {
+    padding-top: 2vh;
+}
+
+
+.followus {
+    margin-top: 2vh;
+    color: azure;
+    text-decoration: none;
+}
+
+.followlinks {
+    display: block;
+    color: azure;
+    text-decoration: none;
+}
+
+.followlinks:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.leftform {
+    font-size: 4vh;
+}
+
+.indexbar {
+    width: 450px;
+    height: 40px;
+    padding: 0.5vh;
+    border: none;
+    border-radius: 1vh;
+    margin-top: 8vh;    
+    font-size: 1vw;     
+}
+
+.indexbar::placeholder {
+    font-size: 16px;
+}
+
+.indexbutton {
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 170px;
+    height: 60px;
+    font-size: 1.7vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2vw;
+    border-radius: 1vh;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.indexbutton:hover {
+    background-color: black;
+    color: white;
+}
+
+.destination {
+    font-size: 4vh;
+    color: aliceblue;
+}
+
+.searchbar {
+    width: 350px;
+    height: 40px;
+    padding: 0.5vh;
+    border: none;
+    border-radius: 1vh;
+    margin-top: 2vh;    
+    font-size: 1vw;
+}
+
+.searchbar::placeholder {
+    font-size: 16px;
+}
+  
+.searchbutton {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 1vh;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    margin-top: 4vh;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.searchbutton:hover {
+    background-color: #111111;
+    color: white;
+}
+
+.hotels {
+    margin: 0 auto;
+    display: flex;
+    color: black;
+    border: aliceblue;
+    border-style: groove;
+    border-radius: 1vh;
+    width: 55vw;
+    height: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    transition-duration: 0.4s;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  }
+
+.desc {
+    flex-basis: 25%;
+    justify-content: center;
+  }
+
+.hotelinformation {
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.price {
+    justify-content: center;
+    flex-basis: 25%;
+    margin-right: 2vw;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    border: black;
+    border-style: double;
+    border-radius: 3vh;
+    border-color: seashell;
+    background: rgb(129,129,129);
+    color: aliceblue;
+  }
+
+.imghotels {
+    width: 10vw;
+    height: 14vh;
+    float: left;
+    border-style: double;
+    border-color: aliceblue;
+    border-radius: 1vh;
+}
+
+.hotelname {
+    font-size: 2.5vh;
+    color: black;
+}
+
+.hoteldesc {
+    font-size: 1.5vh;
+    color: black;
+    margin-top: 0.5vh;
+}
+
+.hotels:hover {
+    background-color: rgb(105, 105, 105);   
+}
+
+.pricetitle {
+    margin-top: 0.5vh;
+    font-size: 1.45vh;
+}
+
+.realprice {
+    font-size: 1.75vh;
+}
+
+.mainslogan {
+    margin-top: 5vh;
+    font-size: 4vh;
+    color: aliceblue;
+}
+
+.mainbutton:hover {
+    background-color: #111111;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .indexbar {
+        width: 300px;
+        height: 40px;
+    }
+
+    .searchbar {
+        width: 200px;
+        height: 40px;
+        padding: 0.5vh;
+        border: none;
+        border-radius: 1vh;
+        margin-top: 8vh;    
+        font-size: 1vw;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .hotels {
+        width: 85vw;
+        min-height: 15vh;
+        height: auto;
+      }
+
+    .imghotels {
+        width: 20vw;
+        height: 20vh;
+    }
+} 
+
+@media only screen and (max-width: 1200px) {
+    .contactinformation {
+        flex-basis: 100%;
+    }
+    
+    .copyrights {
+        flex-basis: 100%;
+        display: none;
+    }
+    
+    .follow {
+        flex-basis: 100%;
+    }
+}
